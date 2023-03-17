@@ -1,0 +1,46 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    align-items: flex-start;
+  }
+}
+.destinationsList {
+  color: #252627;
+  font-size: 32px;
+  font-family: 'Roboto';
+}
+.search-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-width: 0px;
+  border-radius: 5px;
+}
+.input-box {
+  background-color: #f1f5f9;
+  border-width: 0px;
+  margin-left: 10px;
+  color: #0f172a;
+}
+.search-icon {
+  width: 17px;
+}
+.card-items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60vw;
+}
+@media screen and (min-width: 768px) {
+  .card-items-container {
+    width: 80vw;
+  }
+}
